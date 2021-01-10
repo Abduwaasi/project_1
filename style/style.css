@@ -1,0 +1,159 @@
+/*-----------------------------------------
+            Default values
+font-family:oswald san-serif
+color:
+        1.midnight blue: #2c3e50
+        2.Alizarin:#e74c3c
+-------------------------------------------*/
+
+
+
+/*------------------------------------------
+       Basic setup
+____________________________________________*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: o;
+}
+a{
+    text-decoration: none;
+    
+}
+li{
+    display: inline-block;
+    list-style-type: none
+}
+body{
+    font-family: 'Oswald', sans-serif;
+   
+}
+.container{
+    max-width: 1240px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+/*_____________________________________
+            
+            Header styling
+_______________________________________*/
+
+header h1{
+    text-align: center;
+    color: #2c3e50;
+    padding: 15px 0;
+    
+}
+header span{
+    color: #e74c3c;
+}
+
+header ul{
+    text-align: center;
+    background-color: #fafafa;
+}
+
+header li{
+    padding: 10px 20px;
+}
+header a{
+    color:  #2c3e50;
+    text-transform: uppercase;
+    
+}
+header a:hover{
+    color: #e74c3c;
+     
+}
+body{
+     background-color: #2c3e50;
+}
+
+/*-------------------------------------
+Eat healthy be healthy section styling
+---------------------------------------*/
+.be-healthy{
+    padding: 20px 30px;
+}
+.be-healthy h2{
+    color: #e74c3c;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+    
+}
+.be-healthy a{
+    padding: 10px 0;
+    color: #e74c3c;
+    font-weight: 700;
+}
+.be-healthy a:hover{
+    color: #2c3e50;
+} 
+.be-healthy p{
+    color:#2c3e50;
+    font-weight: 400;
+}
+
+/*-------------------------------------
+      Fruit section styling
+---------------------------------------*/
+.fruit-section{
+    margin-top: 30px;
+    padding: 0 30px;
+}
+.fruit-div{
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #2c3e50;
+    color: #fff;
+}
+.fruit-div:nth-child(2){
+    background-color: #e74c3c;
+}
+.fruit-div img{
+    height: 100%;
+    background-color: #fff;
+}
+
+.fruit-text{
+    padding: 20px;
+}
+.fruit-text h3{
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 400px;
+    text-transform: uppercase;
+    
+}
+.fruit-div p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+/*-------------------------------------
+      Big image section styling
+---------------------------------------*/
+.big-image{
+   width: 80%;
+    margin: auto;
+
+}
+.big-image img{
+    width: 100%;
+}
+/*-------------------------------------
+      Footer section styling
+---------------------------------------*/
+footer{
+    text-align: center;
+    background-color: #e74c3c;
+    color: #fff;
+    font-weight: 400;
+    font-size:17px;
+    padding: 10px 0;
+}
